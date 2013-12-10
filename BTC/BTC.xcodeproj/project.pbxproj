@@ -16,6 +16,7 @@
 		0A07F8CD1856EC25003F523E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07F8C21856EC25003F523E /* AFURLRequestSerialization.m */; };
 		0A07F8CE1856EC25003F523E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07F8C41856EC25003F523E /* AFURLResponseSerialization.m */; };
 		0A07F8CF1856EC25003F523E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07F8C61856EC25003F523E /* AFURLSessionManager.m */; };
+		0A07F8D21856F7EA003F523E /* BTCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07F8D11856F7EA003F523E /* BTCHttpClient.m */; };
 		3C60BF1618505B7A00B7CC7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C60BF1518505B7900B7CC7C /* Foundation.framework */; };
 		3C60BF1818505B7A00B7CC7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C60BF1718505B7A00B7CC7C /* CoreGraphics.framework */; };
 		3C60BF1A18505B7A00B7CC7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C60BF1918505B7A00B7CC7C /* UIKit.framework */; };
@@ -63,6 +64,8 @@
 		0A07F8C41856EC25003F523E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		0A07F8C51856EC25003F523E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		0A07F8C61856EC25003F523E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		0A07F8D01856F7EA003F523E /* BTCHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCHttpClient.h; sourceTree = "<group>"; };
+		0A07F8D11856F7EA003F523E /* BTCHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCHttpClient.m; sourceTree = "<group>"; };
 		3C60BF1218505B7900B7CC7C /* BTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60BF1518505B7900B7CC7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C60BF1718505B7A00B7CC7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				3C60BF2E18505B7C00B7CC7C /* BTCSecondViewController.m */,
 				3C60BF3018505B7E00B7CC7C /* Images.xcassets */,
 				3C60BF1C18505B7A00B7CC7C /* Supporting Files */,
+				0A07F8D01856F7EA003F523E /* BTCHttpClient.h */,
+				0A07F8D11856F7EA003F523E /* BTCHttpClient.m */,
 			);
 			path = BTC;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 			files = (
 				3C60BF2F18505B7C00B7CC7C /* BTCSecondViewController.m in Sources */,
 				0A07F8CB1856EC25003F523E /* AFSecurityPolicy.m in Sources */,
+				0A07F8D21856F7EA003F523E /* BTCHttpClient.m in Sources */,
 				3C60BF2C18505B7B00B7CC7C /* BTCFirstViewController.m in Sources */,
 				0A07F8C81856EC25003F523E /* AFHTTPRequestOperationManager.m in Sources */,
 				0A07F8CC1856EC25003F523E /* AFURLConnectionOperation.m in Sources */,
